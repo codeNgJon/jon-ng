@@ -27,7 +27,20 @@
 
     /* header styles
    ------------------------------------------------------------------ */
-   header .banner { padding-bottom: 12px; }
+   header {
+      background: #161415 url(../images/header-background-mobile.jpg) no-repeat top center;
+      background-size: cover !important;
+      -webkit-background-size: cover !important;
+   }
+   header .banner { 
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+   }
+   header .banner-text {
+      width: 100%;
+   }
    header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
@@ -112,7 +125,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #ceb294;
 		position: relative;
       border: none;
       float: right;
@@ -123,7 +136,6 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
    }
 
 	#nav-wrap > a:before,
@@ -152,7 +164,7 @@
       float: right;     
 
       position: relative;
-      top: 12px;
+      top: 0;
       right: 0;
    }
 
@@ -161,7 +173,7 @@
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      margin: 0 0 0 30px;
       clear: both;
    }
 
@@ -188,9 +200,16 @@
    /* Header Styles
    -------------------------------------------------------------------- */
    header .banner {
-      padding-bottom: 12px;
       padding-top: 6px;
+      width: 100%;
    }
+
+   header .banner-text {
+      background-color: rgb(0, 0, 0, .3);
+      border: 1px solid transparent;
+      border-radius: 8px;
+   }
+
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;

@@ -51,14 +51,18 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;s
+   width: 100%;
    text-align: center;
 }
-
-header .banner-text { width: 100%; }
+header .banner-text { 
+   width: 45%; 
+   background-color: rgb(0, 0, 0, .3);
+   border: 1px solid transparent;
+   border-radius: 8px;
+   padding: 1em;
+}
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'Permanent Marker', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -95,7 +99,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #ceb294; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +121,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #ceb294; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -149,8 +153,8 @@ ul#nav {
    min-height: 48px;
    width: auto;
 
-   /* center align the menu */
-   text-align: center;
+   /* right align the menu */
+   float: right;
 }
 ul#nav li {
    position: relative;
@@ -170,6 +174,7 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    color: #fff;
+   font-size; 1.25em;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -179,7 +184,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ceb294; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,18 +192,18 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #F9F8F3;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  { color: #2B2B2B; }
+#about a:hover, #about a:focus { color: #ceb294; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #2B2B2B;
    margin-bottom: 12px;
 }
 #about p {
@@ -222,7 +227,7 @@ ul#nav li.current a { color: #F06000; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #fff;
+   background: #2B2B2B;
    color: #2B2B2B;
 }
 #about .download .button i {
@@ -242,7 +247,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #ceb294; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +256,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #ceb294;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -795,7 +800,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #ceb294; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -856,7 +861,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #ceb294;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -875,7 +880,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #ceb294;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -887,7 +892,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #ceb294; }
 
 #message-warning i,
 #message-success i {
@@ -971,7 +976,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #ceb294;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
