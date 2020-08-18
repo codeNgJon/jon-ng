@@ -16,18 +16,19 @@ export default class About extends Component {
 
                <h1>My Story</h1>
                <h3 style={{fontFamily:'Open Sans', fontSize: '1.25em'}}>
-                  I was lucky enough to have grown up in the Silicon Valley, spending most of my childhood years here. Since that time, I have gotten to known
-                  the beaches of Southern California and the skyscrapers of New York City. Over the last ten years, my experiences have taken me from the Health sciences to Technology, where I apply Human Computer Interactions. 
+                  I am a proud native of Silicon Valley, where I spent my childhood years. I feel grateful for the journey I have been on living on the beaches of Southern California to the skyscrapers of New York City. My professional experiences have taken me from the Health sciences to Technology, coupled with Human Behavior. From consumer facing products to SaaS applications, I utilize humanistic problem solving and behavioral elements to come up with solutions to free any sticky problems.  
                </h3>
-               <p>
-                  You will now find me thinking about:
+               <h3 style={{fontFamily:'Open Sans', fontSize:'1.25em'}}> You will currently find me thinking about: </h3>
                   <ul>
                      <li>the Future</li>
                      <li>the Art of Wabi Sabi</li>
                      <li>Ikigai</li>
                      <li>Behavior design</li>
                   </ul>
-               </p>
+               <h3 style={{fontFamily:'Open Sans', fontSize:'1.25em'}}>
+                  Please don't hesitate to reach out! I would love to connect. 
+               </h3>
+              
 
                {/* <div className="row">
                   <div className="columns contact-details">

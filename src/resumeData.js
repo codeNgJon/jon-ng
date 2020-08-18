@@ -1,6 +1,6 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
+    "imagebaseurl":"https://codengjon.github.io/",
+    "name": "Jonathan Ng",
     "role": "Frontend Developer and Data Scientist",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
@@ -16,11 +16,11 @@ let resumeData = {
           "url":"http://github.com/codengjon",
           "className":"fa fa-github"
         },
-        {
-          "name":"twitter",
-          "url":"http://twitter.com/jonohito",
-          "className":"fa fa-twitter"
-        }
+        // {
+        //   "name":"twitter",
+        //   "url":"http://twitter.com/jonohito",
+        //   "className":"fa fa-twitter"
+        // }
       ],
     "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"India",

@@ -18,6 +18,9 @@ export default class Footer extends Component {
                 )
               })
             }
+            <li key='email'>
+              <a href={`mailto:1jonathan.ng@gmail.com`}><i className='fa fa-envelope'></i></a>
+            </li>
           </ul>
           
         </div>
