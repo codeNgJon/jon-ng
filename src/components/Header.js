@@ -6,11 +6,11 @@ export default class Header extends Component {
       <React.Fragment>
       
       <header id="home">
-        <div>
-          <h3>Jonathan Ng</h3>
+        {/* <div>
+          <h3>Jonathan Ng</h3> */}
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+          <a className="mobile-btn" href="#hide" title="Hide navigation">Hide navigation</a>
           <ul id="nav" className="nav">
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
@@ -20,7 +20,7 @@ export default class Header extends Component {
               <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
         </nav>
-        </div>
+        {/* </div> */}
 
          <div className="row banner">
             <div className="banner-text">
@@ -33,7 +33,7 @@ export default class Header extends Component {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
                               </li>
                             )
                           }

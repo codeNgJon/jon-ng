@@ -143,9 +143,9 @@ header .scrolldown a:hover { color: #ceb294; }
    position: fixed;
    left: 0;
    top: 0;
-   display: flex;
+   /* display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-between; */
 }
 .opaque { background-color: #333; }
 

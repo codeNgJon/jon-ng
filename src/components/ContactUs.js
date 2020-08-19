@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    // let resumeData = this.props.resumeData;
     return (
       <section id="contact">
           <div className="row section-head">
@@ -12,7 +12,7 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
-            
+
               {/* <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
