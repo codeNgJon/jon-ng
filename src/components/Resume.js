@@ -5,7 +5,7 @@ export default  class Resume extends Component {
     return (
       <section id="resume">
 
-         <div className="row education">
+         {/* <div className="row education">
 
             <div className="three columns header-col">
                <h1><span>Education</span></h1>
@@ -30,7 +30,7 @@ export default  class Resume extends Component {
                 })
               }
             </div>
-         </div>
+         </div> */}
         <div className="row work">
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
@@ -60,21 +60,29 @@ export default  class Resume extends Component {
          </div>
 
 
-         <div className="row skill">
+         <div className="row">
 
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
 
-            <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+            <div className="skills">
+              <div>
+                <h1>Agile/Scrum</h1>
+                <h1>Behavior Design</h1>
+                <h1>Positive Intelligence</h1>
+              </div>
+              <div>
+                <h1>UI Development</h1>
+                <h1>User Experience Design</h1>
+                <h1>Process improvements</h1>
+              </div>
+            </div>
 
    				<div className="bars">
 
-   				   <ul className="skills">
+   				   {/* <ul className="skills">
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
@@ -86,13 +94,11 @@ export default  class Resume extends Component {
                   })
                 }
 
-   					</ul>
+   					</ul> */}
 
    				</div>
 
    			</div>
-
-         </div>
 
       </section>
     );

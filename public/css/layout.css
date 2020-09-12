@@ -293,6 +293,13 @@ ul#nav li.current a { color: #ceb294; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+ .skills {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+/*
 .bars {
 	width: 95%;
 	float: left;
@@ -412,7 +419,7 @@ ul#nav li.current a { color: #ceb294; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section

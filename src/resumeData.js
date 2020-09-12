@@ -93,12 +93,12 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Jonathan is very smart, and his positivity and curiosity are highly contagious. Jonathan's demeanor is somewhat rare, in that he's just as comfortable and effective discussing code and technical solutions as he is at speaking about engineering projects with less technical people. He's enthusiastic, approachable, and capable.",
+        "name":"Steve Calderon"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Jonathan is an extremely organized and thoughtful engineer, encouraging clean process and good accountability. He never hesitates from difficult tasks, often volunteering for particularly sticky code. He's been a great proponent of Scrum and a great asset to our team! I would love to work with him again.",
+        "name":"Jully Kim"
       }
     ]
   }
