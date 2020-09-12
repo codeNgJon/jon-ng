@@ -14,11 +14,14 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 80px/1.1em 'Permanent Marker', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-
+   header .banner-text h3 {
+      font: 20px/2.5em 'Open Sans', serif;
+      width: 80%;
+   }
 }
 
 /* screenwidth less than 900px
@@ -42,11 +45,11 @@
       width: 100%;
    }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 78px/1.1em 'Permanent Marker', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 24px/1.9em 'Open Sans', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -210,9 +213,9 @@
       border-radius: 8px;
    }
 
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 1.1em 'Permanent Marker', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 18px/2.2em 'Open Sans', serif;
       width: 85%;
    }
    header .banner-text hr {
@@ -370,11 +373,11 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 40px/1.1em 'Permanent Marker', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 16px/1.5em 'Open Sans', sans-serif;
       width: 90%;
    }
   

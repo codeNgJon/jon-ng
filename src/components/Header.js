@@ -4,13 +4,11 @@ export default class Header extends Component {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      
       <header id="home">
-        {/* <div>
-          <h3>Jonathan Ng</h3> */}
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#hide" title="Hide navigation">Hide navigation</a>
+          <h3 id="header-name">Jonathan Ng</h3>
           <ul id="nav" className="nav">
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
@@ -20,14 +18,12 @@ export default class Header extends Component {
               <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
         </nav>
-        {/* </div> */}
 
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">Who am I?</h1>
-               <h3 style={{color:'#fff', fontFamily:'Open Sans', fontSize: '1.5em', lineHeight: '1.5em'}}>A UX and UI maker. Behavior Design Consultant. Lifestyle Designer. Mindfulness Coach...on a mission to help people get unstuck. 
+               <h3 style={{color:'#fff'}}>Behavior Change Coach. UI and UX App Technologist. Agile Process Facilitator ...on a mission to help people get unstuck. 
                </h3>
-               {/* <hr/> */}
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{

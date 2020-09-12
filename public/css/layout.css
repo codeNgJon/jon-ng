@@ -69,11 +69,12 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 25px/2em 'Open Sans', serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   line-height: 1.25em;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -125,6 +126,14 @@ header .scrolldown a:hover { color: #ceb294; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
+#header-name {
+   color: rgb(0 0 0);
+   font-size: 2.65em;
+   line-height: 1.5em;
+   float: left;
+   padding-left: .5em;
+}
+
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
